@@ -1,0 +1,79 @@
+.landing-text{
+    height: 800px;
+    width: 100%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#home{
+    background-image: url("astronaut.jpeg");
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about {
+    /*background-color: #2D2F39;*/
+    background-image: url(smile_about.gif);
+    display: table;
+    height: 810px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#skills {
+    background-image: url(skills.jpeg);
+    display: table;
+    height: 850px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#projects {
+    background-image: url(Projects6.gif);
+    display: table;
+    height: 900px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#interests {
+    background-image: url(interest1.webp);
+    display: table;
+    height: 820px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#activities {
+    background-image: url(activities1.gif);
+    display: table;
+    height: 780px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact {
+    display: table;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
