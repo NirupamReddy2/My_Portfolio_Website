@@ -28,7 +28,7 @@
 }
 
 #skills {
-    background-image: url(skills.jpeg);
+    background-image: url(skills1.jpg);
     display: table;
     height: 850px;
     width: 100%;
@@ -62,7 +62,7 @@
 #activities {
     background-image: url(activities1.gif);
     display: table;
-    height: 780px;
+    height: 800px;
     width: 100%;
     position: relative;
     background-size: cover;
@@ -70,10 +70,49 @@
 }
 
 #contact {
+    background: #FCF5E5;
     display: table;
-    height: 400px;
+    height: 300px;
     width: 100%;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.centerdiv {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px;
+    line-height: 110px;
+    transition: all 0.3s linear;
+}
+
+.fa-instagram {
+    color: #e84393;
+}
+
+.fa-linkedin {
+    color: #0097e6;
+}
+
+.fa-twitter {
+    color: #0097e6;
+}
+
+.fa-github {
+    color: black;
+}
+
+
+
+
