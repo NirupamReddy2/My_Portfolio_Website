@@ -1,4 +1,9 @@
-.landing-text{
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.landing-text {
     height: 800px;
     width: 100%;
     display: table-cell;
@@ -6,7 +11,7 @@
     vertical-align: middle;
 }
 
-#home{
+#home {
     background-image: url("astronaut.jpeg");
     display: table;
     height: 100%;
