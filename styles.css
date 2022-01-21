@@ -1,3 +1,8 @@
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 .landing-text {
     height: 800px;
     width: 100%;
@@ -78,36 +83,38 @@
 #contact {
     background: #FCF5E5;
     display: table;
-    height: 600px;
+    height: 400px;
     width: 100%;
     position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 .centerdiv {
-    height: 30vh;
+    height: 40vh;
     display: grid;
-    grid-gap: 50px;
+    grid-column-gap: 70px;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, 75px);
-    grid-template-rows: repeat(2, 75px);
+    align-content: center;
+    grid-template-columns: repeat(auto-fit, 50px);
+    grid-template-rows: repeat(2, 125px);
+    overflow: hidden;
+    max-width: 100%;
 }
 
 i {
-    height: 110px;
-    width: 110px;
-    border-radius: 40px;
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
     text-align: center;
     margin: 10px;
-    position: relative;
-    left:-25px;
-    box-shadow: 1px 4px 2px 2px;
+    box-shadow: 1px 6px 2px 2px;
     line-height: 110px;
     transition: all 0.3s linear;
+    position: relative;
+    left: -30px;
 }
 
 .fa-instagram {
