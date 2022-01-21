@@ -92,13 +92,13 @@ body{
 }
 
 .centerdiv {
-    height: 40vh;
+    height: 33vh;
     display: grid;
-    grid-column-gap: 70px;
+    grid-column-gap: 80px;
     justify-content: center;
     align-items: center;
     align-content: center;
-    grid-template-columns: repeat(auto-fit, 50px);
+    grid-template-columns: repeat(auto-fit, 69px);
     grid-template-rows: repeat(2, 125px);
     overflow: hidden;
     max-width: 100%;
