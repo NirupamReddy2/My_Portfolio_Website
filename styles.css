@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
 body{
     overflow-x: hidden;
     max-width: 100%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
 }
 
 .landing-text {
@@ -25,6 +33,7 @@ body{
 #about {
     /*background-color: #2D2F39;*/
     background-image: url(smile_about.gif);
+    font-family: 'IBM Plex Sans', sans-serif;
     display: table;
     height: 810px;
     width: 100%;
